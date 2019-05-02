@@ -208,3 +208,7 @@ footerCon
 <footer>​…​</footer>​
 footerCon.textContent = 'Copyright Great Idea! 2018';
 "Copyright Great Idea! 2018"
+
+//  ADDED COLOR GREEN TO NAV BAR
+navAs.forEach( i => {i.style.color = 'green'});
+undefined
