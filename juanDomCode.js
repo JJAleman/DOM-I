@@ -95,3 +95,13 @@ newAboutSec2
 <p>​</p>​
 newAboutSec2.textContent = 'About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
 "About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+
+// MIDDLE IMAGE
+const midImg = document.querySelector('.middle-img');
+undefined
+midImg
+<img class=​"middle-img" id=​"middle-img" src(unknown) alt=​"Image of code snippets across the screen">​
+midImg.src = 'img/mid-page-accent.jpg';
+"img/mid-page-accent.jpg"
+
+// MIDDLE BOTTOM CONTENT
