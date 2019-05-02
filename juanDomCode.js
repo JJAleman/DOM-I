@@ -104,4 +104,72 @@ midImg
 midImg.src = 'img/mid-page-accent.jpg';
 "img/mid-page-accent.jpg"
 
-// MIDDLE BOTTOM CONTENT
+// RENAMED 3RD TEXT-CONTENT CLASS
+pullDiv
+NodeList(5) [div.text-content, div.about-content, div.text-content, div.text-content, div.text-content]0: div.text-content1: div.about-content2: div.text-content3: div.text-content4: div.text-contentlength: 5__proto__: NodeList
+pullDiv[2].className = 'services-content';
+"services-content"
+
+const newServices = pullDiv[2];
+undefined
+newServices
+<div class=​"services-content">​…​</div>​
+
+// ADDED SERVICES H4
+
+const newServicesH4 = document.querySelector('.services-content h4');
+undefined
+newServicesH4.textContent = 'Services';
+"Services"
+
+// ADDED SERVICE PARAGRAPH
+const newServicesP = document.querySelector('.services-content p');
+undefined
+newServicesP
+<p>​</p>​
+newServicesP.textContent = 'Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+"Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+
+// PRODUCT SECTION
+pullDiv[3].className = 'product-content';
+"product-content"
+
+const newProduct = pullDiv[3];
+undefined
+newProduct
+<div class=​"product-content">​…​</div>​
+
+const newProdH4 = document.querySelector('.product-content h4');
+undefined
+
+newProdH4.textContent = 'Product';
+"Product"
+
+const newProdP = document.querySelector('.product-content p';
+VM5746:1 Uncaught SyntaxError: missing ) after argument list
+const newProductP = document.querySelector('.product-content p');
+undefined
+
+newProductP.textContent = 'Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+"Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+
+// VISION SECTION
+pullDiv[4]
+<div class=​"text-content">​…​</div>​
+pullDiv[4].className = 'vision-content';
+"vision-content"
+pullDiv[4]
+<div class=​"vision-content">​…​</div>​
+const newVision = pullDiv[4];
+undefined
+
+const newVis4 = document.querySelector('.vision-content h4');
+undefined
+newVis4.textContent = 'Vision';
+
+const VisP = document.querySelector('.vision-content p');
+undefined
+
+VisP.textContent = 'Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+"Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+
