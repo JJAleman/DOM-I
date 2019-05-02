@@ -31,3 +31,22 @@ navAs[4].textContent = 'Aboout';
 "Aboout"
 navAs[5].textContent = 'Contact';
 "Contact"
+
+const newCta = document.querySelector('.cta h1');
+undefined
+newCta
+<h1>​</h1>​
+newCta.textContent = 'DOM is Awesome';
+"DOM is Awesome"
+const newbttn = document.querySelector('.cta button')
+undefined
+newbttn
+<button>​</button>​
+newbttn.textContent = 'Get Started';
+"Get Started"
+const topImg = document.querySelector(#cta-img);
+VM3788:1 Uncaught SyntaxError: Invalid or unexpected token
+const topImg = document.querySelector('#cta-img');
+undefined
+topImg.src = 'img/header-img.png';
+"img/header-img.png"
