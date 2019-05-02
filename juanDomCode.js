@@ -173,3 +173,28 @@ undefined
 VisP.textContent = 'Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
 "Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
 
+// CONTACT 
+const contactH4 = document.querySelector('.contact h4');
+undefined
+contactH4
+<h4>​</h4>​
+contactH4.textContent = 'Contact';
+"Contact"
+
+document.querySelectorAll('.contact p');
+NodeList(3) [p, p, p]0: p1: p2: plength: 3__proto__: NodeList
+
+const parArr = document.querySelectorAll('.contact p');
+undefined
+
+parArr
+NodeList(3) [p, p, p]0: p1: p2: plength: 3__proto__: NodeList
+
+parArr[0].textContent = '123 Way 456 Street Somewhere, USA';
+"123 Way 456 Street Somewhere, USA"
+
+parArr[1].textContent = '1 (888) 888-8888';
+"1 (888) 888-8888"
+
+parArr[2].textContent = 'sales@greatidea.io';
+"sales@greatidea.io"
