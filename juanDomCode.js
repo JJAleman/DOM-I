@@ -198,3 +198,13 @@ parArr[1].textContent = '1 (888) 888-8888';
 
 parArr[2].textContent = 'sales@greatidea.io';
 "sales@greatidea.io"
+
+// FOOTER
+document.querySelector('footer');
+<footer>​…​</footer>​
+const footerCon = document.querySelector('footer');
+undefined
+footerCon
+<footer>​…​</footer>​
+footerCon.textContent = 'Copyright Great Idea! 2018';
+"Copyright Great Idea! 2018"
