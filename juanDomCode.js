@@ -212,3 +212,30 @@ footerCon.textContent = 'Copyright Great Idea! 2018';
 //  ADDED COLOR GREEN TO NAV BAR
 navAs.forEach( i => {i.style.color = 'green'});
 undefined
+
+// APPEND AND PREPEND CHILD
+const navAppend = document.createElement('a');
+undefined
+
+const appendName = document.createTextNode('Magazine');
+undefined
+
+navAppend.appendChild(appendName);
+"Magazine"
+
+document.querySelector('nav').appendChild(navAppend);
+<a>​Magazine​</a>​
+
+const navPre = document.createElement('a');
+undefined
+
+const prepName = document.createTextNode ('Pictures');
+undefined
+
+navPre.prepend(prepName);
+undefined
+prepName
+"Pictures"
+
+document.querySelector('nav').prepend(navPre);
+undefined
